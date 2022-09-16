@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 
-from .models import CustomUser, Book, List, MarkUp, Genre
+from .models import CustomUser, Book, SavedBook, MarkUp
 
 # Register your models here.
 class CustomUserAdmin(UserAdmin):
@@ -10,6 +10,5 @@ class CustomUserAdmin(UserAdmin):
 
 admin.site.register(CustomUser, CustomUserAdmin)
 admin.site.register(Book)
-admin.site.register(List)
+admin.site.register(SavedBook)
 admin.site.register(MarkUp)
-admin.site.register(Genre)
