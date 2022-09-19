@@ -10,8 +10,10 @@ psycopg2-binary = "*"
 django-environ = "*"
 django-on-heroku = "*"
 gunicorn = "*"
+django-filter = "*"
 
 [dev-packages]
+autopep8 = "*"
 
 [requires]
 python_version = "3.10"
